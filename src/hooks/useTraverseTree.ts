@@ -1,7 +1,7 @@
 import { IExplorer } from "../types/types";
 import { useState } from "react";
 export const useTraverseTree = () => {
-  const [showAlert, setAlert] = useState(false);
+  // const [showAlert, setAlert] = useState(false);
 
   function insertNode(
     tree: any,
@@ -9,7 +9,7 @@ export const useTraverseTree = () => {
     item: string,
     isFolder: boolean
   ) {
-    setAlert(false);
+    // setAlert(false);
     // console.log("TREE ID : " +typeof  tree.id);
     // console.log("FOLDER ID : " +typeof folderId);
 
